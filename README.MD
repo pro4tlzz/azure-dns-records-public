@@ -5,6 +5,7 @@ Azure api for dns records isn't great and its harder to do certain things, Route
 You need to add a terraform.tfvars file to the dns folder, this should look like
 
 # put dns records and resource group here
+```
 groups = {
   "resource_groups" = {
     "resource_groups" = {
@@ -23,3 +24,4 @@ records = {
 }
 }
 }
+```
