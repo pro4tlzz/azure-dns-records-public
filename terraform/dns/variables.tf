@@ -1,7 +1,7 @@
 variable "groups" {
-    type = map
+  type = map(any)
 }
 
 variable "records" {
-    type = map
+  type = map(any)
 }

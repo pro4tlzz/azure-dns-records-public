@@ -1,3 +1,3 @@
 variable "resource_groups" {
-    type = map
+  type = map(any)
 }

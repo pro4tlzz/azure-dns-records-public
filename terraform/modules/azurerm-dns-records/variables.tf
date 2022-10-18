@@ -1,9 +1,9 @@
 variable "resource_group_name" {
-    type = string
+  type = string
 }
 
 variable "a_records" {
-  type = map
+  type = map(any)
 }
 
 variable "zone_name" {
